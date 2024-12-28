@@ -1,6 +1,6 @@
 # Simple Chat Interface
 
-A flexible and extensible chat interface that supports multiple LLM providers including OpenAI's GPT models and DeepSeek. This project provides a clean implementation for integrating various chat models with rate limiting and configuration management.
+A flexible and extensible chat interface built with Streamlit that supports multiple LLM providers including OpenAI's GPT models and DeepSeek. This project provides a clean implementation for integrating various chat models with rate limiting and configuration management, wrapped in a modern web interface.
 
 ## Features
 
@@ -9,6 +9,7 @@ A flexible and extensible chat interface that supports multiple LLM providers in
 - ⚙️ Easy configuration management
 - 🔑 Secure API key handling
 - 💬 Clean chat interface
+- 🌐 Modern Streamlit web interface
 
 ## Setup
 
@@ -35,6 +36,20 @@ Create a `.env` file in the root directory with your API keys:
 OPENAI_API_KEY=your_openai_api_key
 DEEPSEEK_API_KEY=your_deepseek_api_key
 ```
+
+## Run
+
+To start the Streamlit chat interface:
+
+```bash
+streamlit run app.py
+```
+
+The application will start and open in your default web browser. You can:
+1. Select your preferred model from the sidebar
+2. Start chatting with the AI model
+3. Switch between models at any time
+4. View conversation history
 
 ## Project Structure
 
@@ -88,5 +103,13 @@ The service includes built-in rate limiting to prevent API abuse and manage cost
 3. Commit your changes
 4. Push to the branch
 5. Create a Pull Request
+
+## License
+
+MIT License
+
+## Support
+
+For support, please open an issue in the GitHub repository.
 
 
