@@ -89,10 +89,4 @@ The service includes built-in rate limiting to prevent API abuse and manage cost
 4. Push to the branch
 5. Create a Pull Request
 
-## License
 
-[Add your chosen license]
-
-## Support
-
-[Add support information/contact details] 
