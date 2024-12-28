@@ -30,7 +30,7 @@ def display_message(role: str, content: str):
 
 def create_chat_interface():
     """Create the main chat interface"""
-    st.title("Chat Interface")
+    st.title("Simple Chat")
     
     conversation = st.session_state.conversations.get_active_conversation()
     if not conversation:

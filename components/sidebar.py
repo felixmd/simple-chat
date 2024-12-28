@@ -6,7 +6,7 @@ from utils.config import create_model_config
 def create_sidebar():
     """Create the sidebar with model selection and conversation controls"""
     with st.sidebar:
-        st.title("Chat Settings")
+        st.title("Settings")
         
         # Model selector
         model_config = create_model_config()
