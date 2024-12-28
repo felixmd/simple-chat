@@ -14,7 +14,7 @@ A flexible and extensible chat interface that supports multiple LLM providers in
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/felixmd/simple-chat.git
 cd simple_chat
 ```
 
